@@ -1,0 +1,77 @@
+/*
+  Override default refinery application CSS below.
+  Formatting applies to all frontend.
+*/
+html,body {margin:0;padding:0;height:90%;background:url('../images/smk6.jpg') no-repeat top center fixed;
+background-size:cover;}
+* {font-size:small;color:black;font-family:Lucida Sans Unicode;}
+
+/* TOP NAVBAR */
+nav {width:100%;color:dimgray;overflow:hidden;box-shadow:0px 3px 5px black;border-bottom:1px solid dimgray;
+background:linear-gradient(white 40%,lightgray 90%);
+background:-moz-linear-gradient(white 40%,lightgray 90%);
+background:-webkit-linear-gradient(white 40%,lightgray 90%);
+background:-0-linear-gradient(white 40%,lightgray 90%);}
+nav ul {padding:0;margin:3px;list-style:none;}
+nav ul li {float:left;}
+nav ul li a {color:orange;text-decoration:none;display:block;padding:0 10px;font-weight:bold;text-shadow:1px 1px 1px black;}
+nav ul li a:hover {color:red;}
+ul.kiri-atas {float:left;margin-top:7px;}
+ul.kiri-atas li {min-width:90px;}
+ul.kiri-atas li img {float:left;margin-top:-3px;}
+ul.kanan-atas {float:right;}
+ul.kanan-atas a img {opacity:.7;}
+ul.kanan-atas a:hover img {opacity:1;}
+#lbCaption {color:dimgray;}
+
+/* TOPMENU */
+.topmenu {overflow:hidden;}
+.topmenu ul {padding:10px 0;overflow:hidden;float:right;list-style:none;margin:0;}
+.topmenu ul li {float:left;}
+.topmenu ul li a {padding:15px;color:black;}
+.topmenu ul li a:hover,#current {color:orange;font-weight:bold;text-shadow:1px 1px 1px black;}
+
+
+/* CONTENT */
+.container {overflow:hidden;min-height:100%;background:rgba(255,255,255,.6);}
+content,aside {width:48%;padding:1%;}
+content {float:left;}
+aside {float:right;}
+article {padding:2%;min-height:8em;margin:2%;background:rgba(255,255,255,.2);border-radius:10px;box-shadow:0px 2px 3px dimgray;}
+article h1,article h2,#slider h1 {letter-spacing:.1em;font-size:1.2em;font-family:Courier New;color:brown;text-shadow:1px 1px 1px black;}
+
+/* FOOTER */
+footer {width:98%;padding:1%;overflow:hidden;background:black;height:7em;box-shadow:0px -3px 3px black;}
+footer i {color:white;}
+footer img {float:right;margin:5px 0 0 10px;opacity:.8}
+footer a:hover img {opacity:1;}
+
+#nav {list-style:none;float:left;padding:0;
+	/* Bring the nav above everything else--uncomment if needed.
+	position:relative;
+	z-index:5;
+	*/}
+#nav li {float:left;position:relative;}
+#nav a {display:block;padding:0 10px;color:white;text-decoration:none;border-left:1px solid white;}
+#nav a.first {border-left:none;}
+#nav a.first:hover {border-left:none;}
+#nav a:hover{color:orange;text-decoration:underline;border-left:1px solid orange;}
+
+/*--- DROPDOWN ---*/
+#nav ul{	background:black;list-style:none;position:absolute;left:-9999px;padding:0;}
+#nav ul li{float:none;}
+#nav ul a{white-space:nowrap;}
+#nav li:hover ul{left:0;}
+#nav li:hover a{text-decoration:underline;}
+#nav li:hover ul a{text-decoration:none;}
+#nav li:hover ul li a:hover{background:none;}
+
+/* INQUIRIES */
+form.new_inquiry label {color:#333333;}
+form.new_inquiry input,form.new_inquiry textarea {border:none;padding:3px;box-shadow:inset 0px 1px 2px dimgray;}
+input#inquiry_submit {padding:5px;box-shadow:inset 0px -1px 2px dimgray;color:#333333;}
+input#inquiry_submit:hover {color:brown;}
+
+/* SLIDER */
+.slide-container {width:500px;height:320px;overflow:hidden;margin:auto;}
+#slider img {float:right;margin-left:7px;}

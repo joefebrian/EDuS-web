@@ -1,0 +1,33 @@
+<content>
+	<%= image_tag('edusdw.png') %>
+	<div class="slide-container">
+		<ul id="slider">
+			<li>
+				<%= image_tag('schoolbus.png') %>
+				<h1>Lorem</h1>
+				<p>Quisque aliquet accumsan lectus. Nullam porttitor tortor et sem. Nulla lobortis, leo elementum fringilla mollis, magna neque rhoncus lorem, vitae venenatis tellus felis vitae lacus.</p>
+			</li>
+			<li>
+				<%= image_tag('private-school.jpg') %>
+				<h1>Ipsum</h1>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque ac dolor. Aenean consectetuer nibh sed ante pretium egestas. Fusce hendrerit. Duis ultrices tristique diam.</p>
+			</li>					
+		</ul>
+	</div>	
+</content>
+
+<aside>	
+	<article>
+		<%=raw @page.content_for(:body) %>		
+	</article>
+	
+	<article>
+		<h1>Testimonial</h1>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque ac dolor. Aenean consectetuer nibh sed ante pretium egestas. Fusce hendrerit. Duis ultrices tristique diam.</p>
+	</article>
+	
+	<article>	
+		<h1>News</h1>
+		<p>Quisque aliquet accumsan lectus. Nullam porttitor tortor et sem. Nulla lobortis, leo elementum fringilla mollis, magna neque rhoncus lorem, vitae venenatis tellus felis vitae lacus.</p>
+	</article>
+</aside>
